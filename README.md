@@ -15,3 +15,17 @@ Each database is implemented as an **adapter**, allowing for clean separation be
 
 This project follows the **Hexagonal (Clean) Architecture**:
 
+## 🐳 Docker Setup
+
+The project includes a `docker-compose.yml` file to spin up all three databases quickly:
+
+```bash
+docker-compose up -d
+```
+
+## Runing command
+```bash
+go run cmd/server/main.go
+```
+
+make sure runing docker compose before
